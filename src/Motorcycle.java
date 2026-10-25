@@ -1,4 +1,3 @@
-
 /**
  * Project: lab1_5Beauchamp
  * Purpose Details: Represents a motorcycle and its properties.
@@ -17,9 +16,7 @@ public class Motorcycle {
     private Engine engine;
     private Manufacturer manufacturer;
 
-    public Motorcycle(String model, int year, String color,
-                      double price, Engine engine,
-                      Manufacturer manufacturer) {
+    public Motorcycle(String model, int year, String color, double price, Engine engine, Manufacturer manufacturer) {
         this.model = model;
         this.year = year;
         this.color = color;
